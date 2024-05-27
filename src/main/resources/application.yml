@@ -7,4 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: D:\personal\projects\optionsgenieconfig\src\main\resources\config
+          uri: https://github.com/gokulr488/options-genie-configs.git
+          default-label: master
+          username: gokulr488
+          password: ${ GITHUB_TOKEN }
