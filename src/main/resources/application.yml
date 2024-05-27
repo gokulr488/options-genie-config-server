@@ -1,3 +1,5 @@
+server:
+  port: 8888
 spring:
   application:
     name: optionsgenieconfig
@@ -5,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: D:\personal\projects\optionsgenieconfig\src\main\resources\config
