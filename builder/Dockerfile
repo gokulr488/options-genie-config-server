@@ -34,5 +34,5 @@ CMD ["./builderscript.sh"]
 
 #NOTES
 #command to run docker
-#sudo docker run -it -v $SSH_AUTH_SOCK:/ssh-agent -v maven_repository:/root/.m2/repository -e SSH_AUTH_SOCK=/ssh-agent mavenbuilder:latest
+#sudo docker run -it -v $SSH_AUTH_SOCK:/ssh-agent -v maven_repository:/root/.m2/repository -e SSH_AUTH_SOCK=/ssh-agent og_app_builder:latest
 #for intellij config, echo $SSH_AUTH_SOCK  use the value of this, as the volume mount key
